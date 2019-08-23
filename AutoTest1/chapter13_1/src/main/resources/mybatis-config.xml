@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <package name="com.course.model"/>
+    </typeAliases>
+
+    <!-- 将我们写好的sql的映射文件（EmployeeMapping.xml）一定要注册到全局变量中 -->
+
+    <mappers>
+        <mapper resource="mapper/mysql.xml" />
+    </mappers>
+</configuration>
