@@ -2,7 +2,7 @@
   {
     "description": "这是一个会返回cookie的请求",
     "request": {
-      "uri": "/getcookies",
+      "uri": "/getcookies2",
       "method": "get"
     },
     "response": {
