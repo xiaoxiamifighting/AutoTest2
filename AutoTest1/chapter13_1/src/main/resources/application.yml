@@ -1,4 +1,5 @@
 server:
+  address: 47.94.151.50
   port: 8800
 logging:
   path: logs
